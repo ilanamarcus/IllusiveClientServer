@@ -42,7 +42,6 @@ public class ReportGenerator {
 	private String getReportContent(String json) {
 		System.out.println("Parsing json content");
 		JsonElement jsonElement = new JsonParser().parse(json);
-		System.out.println(jsonElement.toString());
 		if (mustache != null) {
 			String reportString = mustache.render(jsonElement);
 			return reportString;
