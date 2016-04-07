@@ -10,9 +10,10 @@ mvn install
 
 chmod -R 777 outScript
 
-#### To run:
+#### To run, cd to the project directory, then:
 1. To start the server: java -jar vt-server-1.0.jar
 2. To start the client: sudo java -jar vt-client-0.0.1-SNAPSHOT.jar
+3. When the client completes, the report can be found in root of the project directory. 
 
 ####Open source choices:
 
