@@ -29,7 +29,7 @@ Dependency Injection - Guice, lightweight set up and is compatible with java8. G
 Templating - Trimou, lightweight and allows for json to be the template data source, which prevented an additional data transformation to java objects for data coming from the server. 
 
 ####If I'd had more time:
-1. I didn't implement a workaround to the 4 request/minute/API key limitation imposed by Virustotal public API. It would have taken at least 5 minutes for the client to run if I'd waited for all of them to run so I only ran 4 hashes all together. Possible solutiosn would include queuing outstanding processes to be run after the timout and cacheing hashes that have already been run. 
+1. I didn't implement a workaround to the 4 request/minute/API key limitation imposed by Virustotal public API. It would have taken at least 5 minutes for the client to run if I'd waited for all of them to run so I only ran 4 hashes all together. Possible solutions would include queuing outstanding processes to be run after the timout and cacheing hashes that have already been run. 
 2. I ran out of time to write tests, but I would have especially wanted to test my SHA256 hashing function and the report generation
 3. I would have added a logging framework with different levels of logging (debug, warn, error, etc...)
 
