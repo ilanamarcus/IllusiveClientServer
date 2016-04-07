@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Running Processes Safety Status</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th>PID</th><th>Hash</th><th>Positives</th><th>Total</th>
+			</tr>
+			{{#statuses}}
+			<tr>
+				<td>{{info.localPid}}</td>
+				<td>{{info.hashSHA256}}</td>
+				<td>{{report.positives}}</td>
+				<td>{{report.total}}</td>
+			</tr>
+			{{/statuses}}
+		</table>
+	</body>
+</html>
