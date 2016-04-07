@@ -2,6 +2,8 @@
 
 ####In order to install, run the following commands in a linux environment:
 
+Make sure to run git clone --recursive due to the presence of a git submodule in the project
+
 cd vt-proj 
 
 mvn install
